@@ -59,9 +59,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "LAYER_GLOBE";
             #binding-cells = <0>;
-            bindings = <&mo 2>, <&kp GLOBE>;
+            bindings = <&mo 2>, <&kp GLOBE>, <&none>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
         };
 
         siri_lockscreen: siri_lockscreen {
