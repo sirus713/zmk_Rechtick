@@ -68,7 +68,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "SIRI_LOCKSCREEN";
             #binding-cells = <2>;
-            bindings = <&siri>, <&kp>;
+            bindings = <&kp>, <&siri>;
 
             tapping-term-ms = <500>;
             flavor = "tap-preferred";
