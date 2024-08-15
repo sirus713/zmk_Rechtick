@@ -17,7 +17,7 @@
         siri: siri {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp GLOBE &kp S>;
+            bindings = <&macro_tap>, <&kp GLOBE &kp S>;
 
             label = "SIRI";
         };
@@ -25,7 +25,7 @@
         app_switcher: app_switcher {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp GLOBE &kp UP_ARROW>;
+            bindings = <&macro_tap>, <&kp GLOBE &kp UP_ARROW>;
 
             label = "APP_SWITCHER";
         };
@@ -33,7 +33,7 @@
         emoji: emoji {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp RG(LC(SPACE))>;
+            bindings = <&macro_tap>, <&kp RG(LC(SPACE))>;
 
             label = "EMOJI";
         };
@@ -41,7 +41,7 @@
         quick_notes: quick_notes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp GLOBE &kp Q>;
+            bindings = <&macro_tap>, <&kp GLOBE &kp Q>;
 
             label = "QUICK_NOTES";
         };
