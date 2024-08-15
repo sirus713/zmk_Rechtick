@@ -64,11 +64,13 @@
             tapping-term-ms = <200>;
         };
 
-        siri_lock: siri_lock {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SIRI_LOCK";
-            #binding-cells = <0>;
-            bindings = <&siri>, <&kp C_POWER>, <&kp C_POWER>;
+        siri_lockscreen: siri_lockscreen {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SIRI_LOCKSCREEN";
+            #binding-cells = <2>;
+            bindings = <&siri>, <&kp>;
+
+            tapping-term-ms = <500>;
         };
     };
 
@@ -115,7 +117,7 @@
 
         layer_2 {
             bindings = <
-&home_swticher  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_SEARCH  &kp LG(LS(NUMBER_3))  &emoji  &quick_notes  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &siri_lock
+&home_swticher  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_SEARCH  &kp LG(LS(NUMBER_3))  &emoji  &quick_notes  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none
 &bt BT_CLR      &trans                &trans                &trans           &trans                &trans  &trans        &trans          &trans            &trans      &trans      &trans             &trans           &trans
 &bt BT_SEL 2    &trans                &trans                &trans           &trans                &trans  &trans        &trans          &trans            &trans      &trans      &trans                              &trans
 &bt BT_SEL 1    &trans                &trans                &trans           &trans                &trans  &trans        &trans          &trans            &trans      &trans                                          &trans
