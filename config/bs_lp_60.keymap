@@ -59,11 +59,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "SIRI_LOCKSCREEN";
             #binding-cells = <2>;
-            bindings = <&siri>, <&kp>;
+            bindings = <&kp>, <&siri>;
 
-            tapping-term-ms = <1000>;
+            tapping-term-ms = <500>;
             flavor = "tap-preferred";
-            quick-tap-ms = <500>;
+            quick-tap-ms = <0>;
         };
     };
 
