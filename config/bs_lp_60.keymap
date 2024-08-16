@@ -62,7 +62,7 @@
             bindings = <&kp>, <&siri>;
 
             tapping-term-ms = <500>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
             quick-tap-ms = <0>;
         };
     };
