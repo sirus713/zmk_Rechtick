@@ -14,14 +14,6 @@
 
 / {
     macros {
-        siri: siri {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp GLOBE &kp S>;
-
-            label = "SIRI";
-        };
-
         app_switcher: app_switcher {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -41,11 +33,7 @@
         quick_notes_macro: quick_notes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap_time 200>,
-                <&kp GLOBE>,
-                <&macro_press>,
-                <&kp Q>;
+            bindings = <&macro_tap>, <&kp GLOBE &kp Q>;
 
             label = "QUICK_NOTES";
         };
