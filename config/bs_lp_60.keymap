@@ -41,7 +41,7 @@
         quick_notes: quick_notes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp GLOBE &kp Q>;
+            bindings = <&macro_tap>, <&kp GLOBE &kp Q>;
 
             label = "QUICK_NOTES";
         };
