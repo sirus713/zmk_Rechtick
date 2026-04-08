@@ -105,7 +105,7 @@
 
         layer_2 {
             bindings = <
-&home_swticher  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_SEARCH  &kp LG(LS(NUMBER_3))  &emoji  &quick_note  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &Lock
+&home_swticher  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_SEARCH  &kp LG(LS(NUMBER_3))  &emoji  &quick_note  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_POWER
 &trans          &trans                &trans                &trans           &trans                &trans  &trans       &trans          &trans            &trans      &trans      &trans             &trans           &trans
 &trans          &trans                &trans                &trans           &trans                &trans  &trans       &trans          &trans            &trans      &trans      &trans                              &trans
 &trans          &trans                &trans                &trans           &trans                &trans  &trans       &trans          &trans            &trans      &trans                                          &trans
